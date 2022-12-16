@@ -1,0 +1,115 @@
+/*body*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'lonelyday', sans-serif;
+    font-size: xx-large;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    background: url(../image/fonddécran.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #5f0606;
+    border-bottom: 5px solid #5e0c0f;
+    box-shadow: 0px 3px 2px rgb(28 26 23 / 40%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    position: fixed;
+    z-index: 1;
+    margin: 0px;
+}
+
+header h1 {
+    font-size: 50;
+    color: beige;
+    text-align: center;
+}
+
+header a {
+    color: rgb(168, 3, 66);
+    width: 20px;
+    margin: auto;
+}
+
+header a:hover{
+    color: aqua;
+}
+
+.a {
+    padding-right: 50px;
+}
+
+.block {
+    margin-top: 80px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 57, 116);
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 80px;
+    font-family:sans-serif;
+}
+
+.block:hover {
+    color: aqua;
+}
+
+.menu_footer {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.menu_footer a{
+    color: rgb(243, 204, 230);
+}
+
+.menu_footer a:hover{
+    color: aqua;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img img{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+iframe {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    float: initial;
+}
