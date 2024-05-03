@@ -1,11 +1,10 @@
-/*body*/
 * {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
     text-decoration: none;
     font-family: 'lonelyday', sans-serif;
-    font-size: xx-large;
+   
 }
 
 html,
@@ -15,9 +14,10 @@ body {
     width: 100%;
     height: 100%;
     color: whitesmoke;
-    background: url(../image/fonddécran.jpg) no-repeat;
+    background: rgb(67, 51, 77) no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 header {
@@ -26,7 +26,7 @@ header {
     background-color: #5f0606;
     border-bottom: 5px solid #5e0c0f;
     box-shadow: 0px 3px 2px rgb(28 26 23 / 40%);
-
+ font-size: xx-large;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,54 +60,31 @@ header a:hover{
     padding-right: 50px;
 }
 
-.block {
-    margin-top: 80px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    color: rgb(4, 6, 34);
-    padding-top: 50px;
-    text-align: center;
-    padding-bottom: 80px;
-    font-family:sans-serif;
+a {
+    color: white;
 }
 
-
-
-.menu_footer {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    
+fieldset{
+    border: #5f0606;
+    border-width: 5px;
+    border-radius: 10px;
+}
+.remplissage{
+    margin-bottom: 3%;
 }
 
-.menu_footer a{
-    color: rgb(243, 204, 230);
+h1,h2{
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(204, 188, 188);
 }
 
-.menu_footer a:hover{
+a{
+    text-decoration: underline;
     color: aqua;
 }
 
-.img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.img img{
-    display: flex;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
-
-iframe {
-    width: 100%;
-    height: 1000px;
-    display: flex;
-    float: initial;
+p{
+   
+    text-align: center;
 }
