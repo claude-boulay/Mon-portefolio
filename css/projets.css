@@ -82,11 +82,13 @@ fieldset{
 }
 
 .high {
-    width:50%;
+    width:70%;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
-.high a img{
+.image{
     width: 200px;
     height: 200px;
     align-items: center;
@@ -101,8 +103,11 @@ fieldset{
 }
 
 .below {
-    width:50%;
+    width:70%;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
 }
 
 .below a {
@@ -110,6 +115,7 @@ fieldset{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    margin-right: 50px;
 }
 
 .below a img {
@@ -123,4 +129,25 @@ fieldset{
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.expériencesprofil {
+    margin-top: 80px;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 50px;
+    background-color: rgb(63, 85, 146);
+    text-align: center;
+    padding-bottom: 80px;
+    font-family:sans-serif;
+}
+
+.exp {
+
+}
+
+.expériencesprofil h4 {
+    color: rgb(255, 57, 116);
 }
